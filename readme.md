@@ -4,11 +4,6 @@
 <p>A minimal currency converter library for NodeJS that works out of the box.</p>
 </div>
 
-<!-- [![Maintainability](https://api.codeclimate.com/v1/badges/b512e403dfc172ee3b0d/maintainability)](https://codeclimate.com/github/paul-shuvo/nodejs-currency-converter/maintainability) -->
-<!-- ![test](https://github.com/paul-shuvo/nodejs-currency-converter/actions/workflows/codecov.yml/badge.svg) -->
-
-__Announcement__ : For crypto currency conversion, check my other package [Nodejs Crypto Converter](https://github.com/paul-shuvo/nodejs-crypto-converter).
-
 ## Getting started
 
 ### Installation
