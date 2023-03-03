@@ -1,8 +1,6 @@
 <div align="center">
 <h1>NodeJS Currency Converter</h1>
 
-![test](https://github.com/paul-shuvo/nodejs-currency-converter/actions/workflows/test.yml/badge.svg) [![Known Vulnerabilities](https://snyk.io/test/github/paul-shuvo/nodejs-currency-converter/badge.svg?targetFile=package.json)](https://snyk.io/test/github/paul-shuvo/nodejs-currency-converter?targetFile=package.json)  ![supported node versions](https://img.shields.io/badge/node%20v-12.x%20%7C%2013.x%20%7C%2014.x%20%7C%2015.x%20%7C%2016.x%20%7C%2017.x%20%7C%2018.x-blue) [![codecov](https://codecov.io/gh/paul-shuvo/nodejs-currency-converter/branch/master/graph/badge.svg)](https://codecov.io/gh/paul-shuvo/nodejs-currency-converter)
- ![license: MIT](https://img.shields.io/npm/l/vue.svg) [![npm version](https://badge.fury.io/js/currency-converter-lt.svg)](https://badge.fury.io/js/currency-converter-lt) ![npm](https://img.shields.io/npm/dm/currency-converter-lt)
 <p>A minimal currency converter library for NodeJS that works out of the box.</p>
 </div>
 
@@ -10,10 +8,6 @@
 <!-- ![test](https://github.com/paul-shuvo/nodejs-currency-converter/actions/workflows/codecov.yml/badge.svg) -->
 
 __Announcement__ : For crypto currency conversion, check my other package [Nodejs Crypto Converter](https://github.com/paul-shuvo/nodejs-crypto-converter).
-
-### Typescript Support
-
-Check out this [comment](https://github.com/paul-shuvo/nodejs-currency-converter/issues/35#issuecomment-1407626126)
 
 ## Getting started
 
@@ -50,13 +44,6 @@ Or, with a json object
 ```javascript
 let currencyConverter = new CC({from:"USD", to:"JPY", amount:100})
 ```
-
-#### <p style='color:magenta'>!!! Note: if you get incorrect conversion described in this [issue](https://github.com/paul-shuvo/nodejs-currency-converter/issues/20) then make sure you pass `isDecimalComma: true` to the constructor as following:</p>
-
-```javascript
-let currencyConverter = new CC({from:"USD", to:"JPY", amount:100, isDecimalComma:true})
-```
-
 
 The convert method will return the conversion based on the last conversion rate and can be used as a promise.
 
@@ -112,10 +99,6 @@ currencyConverter.from("USD").to("GBP").amount(125).convert().then((response) =>
 ## Disclaimer
 
 This package uses web scraping to provide the api.
-
-## Issues
-
-If any issues are found, they can be reported [here](https://github.com/paul-shuvo/nodejs-currency-converter/issues).
 
 ## License
 
